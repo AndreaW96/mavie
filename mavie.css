@@ -1,0 +1,232 @@
+@font-face { font-family: 'andrea1';
+             src: url('font_mavie/Hero.otf') format('opentype'); }
+
+/**** hier drüber nur Font Definierten */
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'andrea1';
+
+}
+* {box-sizing: border-box;}
+
+
+
+
+h1,h2,h3,h4 {margin: 0;}
+button {
+    background: transparent; border:none;
+    font-family: 'andrea1';
+}
+.page { /* Seitencontainer */
+    height: 100vh;width: 100vw;
+    background-size: 100% 100%;
+}
+.flex {display: flex;}
+.verteilen {justify-content: space-between;}
+.padding1 {padding: 5vw;}
+.center {text-align: center;}
+
+ .volume button {
+    height: 5vh;
+    width: 5vw;
+    }
+
+.back icon {
+    height: 5vh;
+    width: 5vw;    
+    }
+
+.menu icon {
+    height: 5vh;
+    width: 5vw;
+    
+    }
+
+.parent {position: relative;
+        
+        }
+    
+.child1 {width: 120%;
+        height: 100%;
+        position: absolute;
+    
+}
+
+
+/***** seiten *****/
+
+.startseite { /* BKGR bild der Startseite */
+    background-image: url(img/Background_app_start.jpg);
+    
+}
+
+.home { /* BKGR bild der home */
+    background-image: url(img/background_final_final.jpg);
+   
+}
+
+.help { /*BKGR bild der help*/
+    background-image: url(img/background_final_final.jpg);
+    
+    
+}
+
+.welcome { /*BKGR bild der welcome*/
+    background-image: url(img/background_final_final.jpg);
+    
+}
+
+.feelings { /*BKGR bild der feelings*/
+    background-image: url(img/background_final_final.jpg);
+    
+}
+
+.feelings2 { /*BKGR bild der feelings2*/
+    background-image: url(img/background_final_final.jpg);
+    
+}
+
+.sexual-health { /*BKGR bild der sexual-health*/
+    background-image: url(img/background_sexual-health.png);
+    
+}
+
+/****** schirft krams ****/
+h1 {
+    color: #54b2cb;
+    font-size: 3vh;
+    }
+   
+h2 {
+    color: white;
+    font-size: 3vh;
+    }
+
+h3 {
+    color: white;
+    font-size. 3vh;
+    }
+
+
+
+
+
+/***** Globale Grid **********/
+.height1  {height: 1vh;}
+.height2  {height: 2vh;}
+.height3  {height: 3vh;}
+.height5  {height: 5vh;}
+.height8  {height: 8vh;}
+.height7  {height: 7vh;}
+.height9  {height: 9vh;}
+.height10 {height: 10vh;}
+.height12 {height: 12vh;}
+.height15 {height: 15vh;}
+.height20 {height: 20vh;}
+.height22 {height: 22vh;}
+.height25 {height: 25vh;}
+.height30 {height: 30vh;}
+.height40 {height: 40vh;}
+.height40 {height: 40vh;}
+.height50 {height: 50vh;}
+.height60 {height: 60vh;}
+.height70 {height: 70vh;}
+.height80 {height: 80vh;}
+.height90 {height: 90vh;}
+.height100 {height: 100vh;}
+
+.width30{width:30vw;}
+.width40{width:40vw;}
+.width50{width:50vw;}
+.width33{width:calc(100vw/3);}
+.width100 {width: 100vw;}
+
+
+/***** Buttons zum wiederverwenden *****/
+button {
+    background: transparent; 
+    border: none;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+.floatright {float: right;}
+.center {align-items: center;}
+
+.headline_icon {
+    height: 3vh;
+    margin-left: 2vw;
+}
+
+.white_dot {
+    height: 2vh;
+    margin-left: 45vw; 
+}
+    
+.white_cirrcle {
+    height: 2vh;
+    
+}
+
+.back_icon {
+    height: 3vh;
+    margin-right: 2vw;
+}
+
+.cloud_menu {
+    height: 3vh;
+    margin: 2vw;
+    
+}
+
+.volume {
+    height: 3vh;
+    margin: 2vw;
+    
+}
+
+.video_bild {width: 85%;}
+
+
+
+.back_white {
+    margin-top: 4vh;
+    width: 8%;
+    
+}
+
+.face2 {width: 70%;
+        
+    
+}
+
+.flag_icon {
+    height: 3vh;
+    margin-left: 2vw;
+}
+
+.bigcloud {100%;}
+
+.textimg {width: 100%;
+    margin-top: 12vh;
+    margin-right: 5vw;
+    
+    
+}
+/****** Text ******/
+h2 {
+    color: white;
+    font-size: 3vh;
+}
+
+h3 {
+    color: white;
+    font-size. 3vh;
+}
+
+
+
+
+
